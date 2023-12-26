@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    
+}
+
+main{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5%;
+    margin: auto;
+    padding: 15px;
+}
+
+h1{
+    color: #0b4214;
+}
+
+h1#principal{
+    color: rgb(15, 7, 7);
+    text-align: center;
+    background-color: #0b4214 ;
+}
+
+h2{
+    color: rgb(30, 99, 61);
+}
+
