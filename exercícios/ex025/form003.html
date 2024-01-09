@@ -9,27 +9,29 @@
 <body>
     <h1>Tipos de Formulário</h1>
     <form action="cadastro.php" autocomplete="on">
-        <div>
-            <label for="iusu">Usuário:</label>
-            <input type="text" name="usuario" id="iusu" required minlength="10" maxlength="15" autocomplete="name" placeholder="Nome de Usuário">
-        </div>
-        <div>
-            <label for="ime">Média:</label>
-            <input type="number" name="media" required id="ime" min="0" max="10" step="0.1" placeholder="Média">
-        </div>
-        <div>
-            <label for="iper">Período Letivo:</label>
-            <input type="month" name="periodo" required id="iper">
-        </div>
-        <div>
-            <label for="idia">Dia da Prova:</label>
-            <input type="date" name="dia" required id="idia">
-        </div>
-       
-        <div>
-            <label for="ihor">Horário da Prova:</label>
-            <input type="time" name="horario" required id="ihor">
-        </div>
+        <fieldset>
+            <legend>Dados dos Formulário</legend>
+            <div>
+                <label for="iusu">Usuário:</label>
+                <input type="text" name="usuario" id="iusu" required minlength="10" maxlength="15" autocomplete="name" placeholder="Nome de Usuário">
+            </div>
+            <div>
+                <label for="ime">Média:</label>
+                <input type="number" name="media" required id="ime" min="0" max="10" step="0.1" placeholder="Média">
+            </div>
+            <div>
+                <label for="iper">Período Letivo:</label>
+                <input type="month" name="periodo" required id="iper">
+            </div>
+            <div>
+                <label for="idia">Dia da Prova:</label>
+                <input type="date" name="dia" required id="idia">
+            </div>
+            <div>
+                <label for="ihor">Horário da Prova:</label>
+                <input type="time" name="horario" required id="ihor">
+            </div>   
+        </fieldset> <br>
         <div>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
